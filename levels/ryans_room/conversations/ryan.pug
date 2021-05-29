@@ -1,0 +1,43 @@
+conversation(display_name="Ryan")
+  case lastResponse
+    when "thanks"
+    when "ok"
+      statement#final
+      responses
+
+    when "what-now"
+      statement#ryan
+      responses
+        response#thanks.
+          Thanks... I think?
+        response#stuck.
+          I don't know... I am stuck.
+
+    when "stuck"
+      statement#ryan2
+      responses
+        response#ok.
+          Oh.
+
+    default
+      statement#default
+      responses
+        response#what-now.
+          What are we doing now?
+
+  statements
+    statement#default
+      text.
+        You have found #[span.highlight my room], but can you find your Blahaj?
+      speech.
+        You have found my room #[break(strength="medium")], but can you find your Blahaj?
+    statement#ryan
+      text.
+       You need to look around and think of places the Blahaj could be hidden. I will help you with your first clue.
+       Where might you find monsters hiding? This object is rectangular and covered in soft materials.
+    statement#ryan2
+      text.
+        It begins with a #[span.highlight 'b'].
+    statement#final
+      text.
+        Thank you! Now get exploring!
