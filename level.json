@@ -1,0 +1,16 @@
+{
+  "title": "Ryan's Room",
+  "description": "The personal chambers of Ryan.",
+  "mission_icon": "mission_icon.png",
+  "is_mission": true,
+  "priority": 1,
+  "backgroundMusic": "unsettlingarea_59895b",
+  "backgroundEffect": {
+    "key": "vr",
+    "options": {}
+  },
+  "flavorTextOverrides": {
+    "bookshelf": "There's nothing like a good book."
+  },
+  "objectives": ["example_objective", "example_objective2"]
+}
