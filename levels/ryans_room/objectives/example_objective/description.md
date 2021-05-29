@@ -1,4 +1,4 @@
-# First Clue
+# Second Clue
 
 <div class="aside">
 <h3>To-Do List</h3>
@@ -8,9 +8,7 @@
 </ul>
 </div>
 
-Consider places it could be consealed.
-
-Perhaps the blessed Blahaj is covered up by something.
+Well, the Blahaj was not under the bed.
 
 Consider where in this room the blessed Blahaj could be hidden.
 
