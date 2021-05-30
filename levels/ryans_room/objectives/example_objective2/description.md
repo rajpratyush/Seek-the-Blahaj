@@ -7,7 +7,7 @@
 </ul>
 </div>
 
-The Blahaj is not in the wwardrobe.
+The Blahaj is not in the wardrobe.
 
 Could the Blahaj be under or perching somewhere?
 
